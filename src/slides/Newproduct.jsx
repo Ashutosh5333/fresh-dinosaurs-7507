@@ -1,5 +1,5 @@
 import React from "react";
-import  "./Home.css";
+// import  "./Home.css";
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
@@ -81,9 +81,9 @@ const data =[
 ]
 
 
-export const Stores = () => {
+export const NewProduct = () => {
  return <>
-   <Box border="1px solid blue" bg="#fff;" maxW="8xl" m="auto" h="600px" borderRadius="lg" overflow="hidden" boxShadow="lg">
+   <Box  bg="#fff;" maxW="8xl" m="auto" h="600px" borderRadius="lg" overflow="hidden" boxShadow="lg">
     
     <Text fontSize={33} color="#202340">New Products</Text>
 
