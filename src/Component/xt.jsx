@@ -17,23 +17,22 @@ export const Navbar = () => {
   return (
     <>
       <Box >
-        <Text  position="fixed"
+        <Text
          w="full" bg="#202340" color="white">
           1st time customers save on SHOP.COM exclusive brands using code
           FIRST25OFF . Max $25 discount. Terms Apply.Click to copy coupon.{" "}
         </Text>
       </Box>
-      <br/>
-      {/* <br /> */}
+
       <Container
         maxW="full"
         // w="full"
         h="140px"
         bg="#f0f1f7"
-        // border="1px solid gray"
+        // border="0.5px solid gray"
         boxShadow='2xl' 
-        position="fixed"
-        zIndex="4"
+        // position="fixed"
+        // zIndex="auto"
       >
         <Box maxW="full"  w="auto">
           {/* ------------------- */}
@@ -95,7 +94,7 @@ export const Navbar = () => {
               </Box>
             </Flex>
           </Container>
-          
+
           {/* -------------- */}
           <Spacer />
           <Container maxW="full" mb="40px">
@@ -144,9 +143,8 @@ export const Navbar = () => {
             </Flex>
           </Container>
         </Box>
-        {/* ---------------- */}    
+        {/* ---------------- */}
       </Container>
-      <br />
   
       <Box  boxShadow='2xl' p="1" >
         <Flex  bg="#f0f1f7">
