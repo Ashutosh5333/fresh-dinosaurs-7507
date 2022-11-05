@@ -9,9 +9,7 @@
    <h5> Navbar,Footer <h5/> 
    <h5> Image Swiper <h5/>
    <h5> Brand  Product Page<h5/>
-
-<h1>Tech Stack <h1/>
- 
+ <h1>Tech Stack <h1/>
  <h2> React , ChakraUI , CSS <h2/>
 
 <h1>Clone Snaps</h1>
